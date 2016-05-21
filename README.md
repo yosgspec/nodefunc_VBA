@@ -23,7 +23,7 @@ Node.jsをVBAから呼び出すために必要なNode.js用モジュール。
 標準出力がそのまま返り値として得られます。  
   
 #てすと
-* VBA側 Main.bas
+* VBA側 Main.bas  
 	Option Explicit
 
 	Dim nf As New nodefunc
@@ -47,7 +47,7 @@ Node.jsをVBAから呼び出すために必要なNode.js用モジュール。
 	    Debug.Print nf.nodefn("returnData", Now)
 	End Sub
   
-* Node.js側 main.js
+* Node.js側 main.js  
 	var nf=require("./nodefuncVBA");
 	//呼び出し関数
 	eval(nf.func());
@@ -68,7 +68,7 @@ Node.jsをVBAから呼び出すために必要なNode.js用モジュール。
 		nf.return_VBA(x);
 	}
   
-* 実行結果
+* 実行結果  
 	 3628800 
 	> [ 0, [ 1, [ 2, [Object] ] ] ]
 	> 
