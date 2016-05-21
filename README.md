@@ -24,6 +24,7 @@ Node.jsをVBAから呼び出すために必要なNode.js用モジュール。
   
 #てすと
 * VBA側 Main.bas  
+
         Option Explicit
         
         Dim nf As New nodefunc
@@ -48,6 +49,7 @@ Node.jsをVBAから呼び出すために必要なNode.js用モジュール。
         End Sub
   
 * Node.js側 main.js  
+
         var nf=require("./nodefuncVBA");
         //呼び出し関数
         eval(nf.func());
@@ -69,11 +71,12 @@ Node.jsをVBAから呼び出すために必要なNode.js用モジュール。
         }
   
 * 実行結果  
-         3628800 
-        > [ 0, [ 1, [ 2, [Object] ] ] ]
-        > 
-        ふが
-        > Sat May 21 2016 23:54:42 GMT+0900 (東京 (標準時))
-        > 
-        2016/05/21 23:54:42 
+
+           3628800 
+          > [ 0, [ 1, [ 2, [Object] ] ] ]
+          > 
+          ふが
+          > Sat May 21 2016 23:54:42 GMT+0900 (東京 (標準時))
+          > 
+          2016/05/21 23:54:42 
 
