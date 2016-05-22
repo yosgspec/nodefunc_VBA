@@ -118,7 +118,6 @@ module.exports=new function(){
 				return arg.join("$ArraY"+arrNo+"$");
 			case "Number"://NaN除く
 				if(isNaN(arg)){
-					console.log("do");
 					return arg+"$AsTypE$String";
 				}
 				return arg+"$AsTypE$Double";

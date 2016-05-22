@@ -9,7 +9,7 @@ Attribute VB_PredeclaredId = False
 Attribute VB_Exposed = False
 'nodefunc VBA by.YOS G-spec
 
-'予約文字列:文字列として次の単語を使用しないこと
+'【予約文字列】文字列として次の単語を使用しないこと
 '$ArraY0$, $ArraY1$... $ArraY[n]$, $ReturnSectioN$, $ReturnArgS$, $AsTypE$
 
 '【VBA側で使用できる関数】
