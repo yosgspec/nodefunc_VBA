@@ -1,5 +1,5 @@
 # nodefunc VBA
-  ExcelVBAからNode.jsを呼び出すためのモジュール軍です。  
+  ExcelVBAからNode.jsの関数を呼び出すためのモジュール軍です。  
   
 * がいよう  
 　VBAからNode.jsの関数を呼んで返り値を得ることが出来ます。  
